@@ -146,9 +146,9 @@ npm start
         const container = this.getElement().querySelector('.details-chart');
 
         this.connectionChart = createChart(
-        container,
-        details.chart,
-        details.isActive
+            container,
+            details.chart,
+            details.isActive
         );
     }
 
