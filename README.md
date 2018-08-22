@@ -161,11 +161,11 @@ npm start
 Выглядит так, будто файл popup.js не из этого проекта. Верстка имеет классы station-info, которые нигде больше не встречаются в проекте. Также popup.js работает с неким объектом, который должен иметь следующую структуру:
 
     var obj = {
-    isActive: Boolean,
-    drones: Array,
-    id: Integer,
-    serialNumber: string,
-    connections: Integer
+        isActive: Boolean,
+        drones: Array,
+        id: Integer,
+        serialNumber: string,
+        connections: Integer
     }
 
 Очень похоже на то, что я должна получать с сервера, но в backend нет ничего, что бы отдавало массив дронов. 
